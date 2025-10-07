@@ -44,6 +44,8 @@ body {
 
 .main{
     width: 100%;
-    background-color: rgb(122, 122, 122);
+    background-color: #c8c8c8;
     height: calc(100vh - 80px);
+    display: flex;
+    background-image: url("../img/programador.png");
 }
