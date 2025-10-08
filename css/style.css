@@ -214,6 +214,26 @@ footer{
     /* MAIN */
 
     /* SOBRE */
-    
+    .sobre{
+        flex-direction: column;
+        padding-top:80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .sobre div{
+        max-width: 80%;
+    }
+    .sobre div h2{
+        font-size: 40px;
+    }
+    .sobre img{
+        max-width: 80%;
+        padding-top: 18px;
+    }
     /* SOBRE */
+
+    /* PROJETOS */
+    
+    /* PROJETOS */
 }
