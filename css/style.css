@@ -234,6 +234,17 @@ footer{
     /* SOBRE */
 
     /* PROJETOS */
-    
+    .projetos img{
+        width: 27.5%;
+    }
     /* PROJETOS */
+
+    /* FOOTER */
+    footer{
+        flex-direction: column;
+        padding: 0 20%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    /* FOOTER */
 }
