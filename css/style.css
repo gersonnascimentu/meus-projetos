@@ -38,6 +38,8 @@ body {
 
 .nav-list a:hover{
     color: #18ff03;
+    transition: 0.9s;
+    
 }
 
 /*Fim Nav*/
@@ -74,9 +76,10 @@ body {
     background-color: #fff;
     border: 0;
     padding: 14px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-weight: bold;
     transition: 0.9s;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 .call-to-action:hover{
@@ -125,8 +128,78 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 80px 0;
+
+}
+
+.projetos h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.projetos p{
+    margin-bottom: 40px;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 5px;
     
 }
 
+.projetos-lista{
+    width: 100%;
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos img{
+    width: 22%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    opacity: 0.8;
+    border-radius: 8px;
+    transition: 0.9s;
+
+}
+
+.projetos img:hover{
+    opacity: 1;
+}
+
+.call-to-action2{
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 18px;
+    transition: 0.9s;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.call-to-action2:hover{
+    transform: scale(1.1);
+    color: #18ff03;
+    background-color: #000000;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*Fim Projetos*/
+
+
+/* Responsividade */
+
+@media(max-width:1050px){
+    
+}
