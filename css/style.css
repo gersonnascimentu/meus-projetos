@@ -45,8 +45,10 @@ html{
 .nav-list a:hover{
     color: #18ff03;
     transition: 0.9s;
+    transform: scale(1.1);
     
 }
+
 
 /*Fim Nav*/
 
@@ -57,7 +59,7 @@ html{
     background-color: #c8c8c8;
     height: calc(100vh - 80px);
     display: flex;
-    background-image: url("../img/programador.png");
+    background-image: url("../img/gerson/Programador-2.png");
     align-items: center;
     padding-left: 10%;
 }
@@ -68,13 +70,15 @@ html{
 .main p{
     font-size: 26px;
     font-style: italic;
-    color: #1e96fc;
+    color: #14db02;
     margin-top: 10px;
     margin-bottom: 35px;
 }
 
 .main h1:hover{
     color: #18ff03;
+    transition: 0.9s;
+    
 }
 .call-to-action{
     cursor: pointer;
@@ -110,6 +114,10 @@ html{
     align-items: center;
     justify-content: space-between;
 }
+.sobre h2:hover{
+    transition: 0.9s;
+    color: #18ff03;      
+}
 
 .sobre div{
     max-width: 50%;
@@ -143,6 +151,10 @@ html{
     font-size: 32px;
     margin-bottom: 8px;
     margin-top: 20px;
+}
+.projetos h2:hover{
+    transition: 0.9s;
+    color: #18ff03;    
 }
 .projetos p{
     margin-bottom: 40px;
